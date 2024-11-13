@@ -1,0 +1,206 @@
+
+
+/**.contact__section{
+    display: flex;
+    padding-left: 150px;
+    padding-right:150px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.contact__img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 100px;
+    padding-right: 300px;
+}
+
+.contact__description span{
+    padding-top: 150px;
+    display: block;
+
+}
+.contact__description{
+
+    width: 100%;
+    height: 50%;
+}**/
+
+/**Temporaily-comingsoon**/
+
+.contact__section{
+    width: 100%;
+    display: block;
+}
+.contact__description{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/**temporaily comingsoon**/
+.contact__description h1{
+    font-size: 150px;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 span {
+    color:var(--color-primary);
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-size: 100px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+  h1 span:nth-child(2) { animation-delay: .1s; }
+  h1 span:nth-child(3) { animation-delay: .2s; }
+  h1 span:nth-child(4) { animation-delay: .3s; }
+  h1 span:nth-child(5) { animation-delay: .4s; }
+  h1 span:nth-child(6) { animation-delay: .5s; }
+  h1 span:nth-child(7) { animation-delay: .6s; }
+  h1 span:nth-child(8) { animation-delay: .7s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
+
+.contact__first__section{
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+}
+.contact__first__section__container{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/background.JPG");
+    background-size: cover;
+    background-size: center;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    isolation: isolate;
+}
+
+.contact__first__section__container::after{
+    content: '';
+    position: absolute;
+    background: white;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+  
+}
+
+.contact__first__section__container h1{
+    font-size: 5rem;
+    color:white;
+}
+.contact__first__section__container img{
+    width: 1920px;
+    height: 600px;
+}
+.contact__first__seciton__img{
+    width: 100px;
+    height: 100%;
+}
+
+
+.contact__second__section{
+    width: 100%;
+    height:1000px;
+    margin-top: 50px;
+}
+
+.contact__second__section__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__second__section__container__map img{
+    margin-left: 200px;
+    width:800px;
+}
+.contact__second__section__container__webform{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 510px;
+    width: 800px;
+}
+.contact__second__section__container__webform__reservation{
+    border: 1px solid var(--color-blue);
+    display: flex;
+    flex-direction: column;
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pure-group{
+    color: var(--color-blue);
+    font-size: 1.2rem;
+    font-weight:1000;
+    display: flex;
+    gap: 5px;
+    border:none;
+}
+.gform{
+    border : 1px solid var(--color-blue);
+}
+.pure-group input{
+    width: 400px;
+    height: 30px;
+}
+
+.pure-group textarea{
+    width: 400px;
+    height: 200px;
+}
+
+.button-success{
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-blue);
+    color: white;
+    border-radius: 30px;
+}
+
+.reservation__button{
+    height: 40px;
+    background-color: var(--color-blue);
+    color: white;
+
+}

@@ -1,0 +1,19 @@
+.middlecontant_container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 50px;
+    background-image: url("../img/joon.JPG");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middlecontant_container h1{
+    display: inline;
+}
+
+.coming{
+    margin-top: 30px;
+    font-size: 10rem;
+    font-weight: bold;
+}
