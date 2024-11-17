@@ -1,0 +1,159 @@
+.contact__first__section{
+    margin-top: 100px;
+    width: 100vw;
+    height: 600px;
+    background-image: url("../img/contact__main__logo.jpg");
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+}
+.contact__first__section::after{
+    content: '';
+    position: absolute;
+    background: white;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.3;
+}
+.contact__first__section__container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__first__section__description{
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 3rem;
+    font-style: normal;
+    display: inline;
+}
+
+.contact__first__section__container img{
+    width: 1920px;
+    height: 600px;
+}
+
+
+.contact__second__section{
+    width: 100vw;
+    height:800px;
+    margin-top: 100px;
+}
+
+.contact__second__section__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+.contact__second__section__container__webform{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+}
+.contact__second__section__container__webform__reservation{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact__second__section__container__webform__reservation .res1{
+    color: #efeade;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contact__second__section__container__webform__reservation .res2{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: normal;
+}
+.reservation__button{
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.reservation__button:hover{
+    color:rgb(240, 205, 140);
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+}
+.pure-group{
+    font-size: 1.2rem;
+    font-weight:1000;
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    border:none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.gform{
+    height: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.gform h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pure-group input{
+    width: 400px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.pure-group textarea{
+    width: 400px;
+    height: 150px;
+    font-size: 1.5rem;
+}
+
+.button-success{
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.button-success:hover{
+        color:rgb(240, 205, 140);
+}

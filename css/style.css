@@ -1,0 +1,80 @@
+/*Part of Main Screen*/
+@import "middle.css";
+@import "contact.css";
+@import "header.css";
+@import "home.css";
+@import "menu.css";
+@import "footer.css";
+@import "slider.css";
+
+/* Global */
+:root{
+    /* App Colors */
+    --color-primary: var(--color-blue);
+    --color-primary-variant: var(--color-gray);
+    --color-accent: var(--colo-gold);
+    --color-accent-variant: var(--color-orange);
+    --color-text: var(--color-banju-first);
+
+    /* Colors */
+    --color-white: #ffffff;
+    --color-blue: #033851;
+    --color-wheat: hsl(42, 35%, 90%);
+    --color-orange: #fd6413;
+    --color-gray: #1b1e26;
+
+    --color-banju-first: #63929b;
+    /*Size*/
+    --size-max-width:1920px;
+    --size-max-height:1080px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;   
+    overflow-x: hidden;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+body h1,p,h2{
+    color: #efeade;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+/*
+h1,
+h2,
+h3,
+ul,
+p{
+    margin: 0;
+}*/
+/*
+ul{
+    list-style: none;
+    padding: 0px;
+}*/
+
+a{
+    text-decoration:none;
+    color: #efeade
+    /*color: var(--color-text);*/
+}
+
+
+/*
+button{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+
+button:focus{
+    outline: solid 1px var(--color-accent);
+}*/
