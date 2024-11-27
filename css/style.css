@@ -6,6 +6,7 @@
 @import "menu.css";
 @import "footer.css";
 @import "slider.css";
+@import "splash.css";
 
 /* Global */
 :root{
@@ -34,7 +35,6 @@ body{
     margin: 0px;
     padding: 0px;   
     overflow-x: hidden;
-    background-size: contain;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -47,14 +47,15 @@ body h1,p,h2{
     font-weight: 300;
     font-style: normal;
 }
-/*
-h1,
-h2,
-h3,
-ul,
-p{
-    margin: 0;
-}*/
+* {
+    box-sizing: border-box;
+}
+
+.max__container{
+    width: 1920px;
+    margin: auto;
+}
+
 /*
 ul{
     list-style: none;
